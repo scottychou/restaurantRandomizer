@@ -3,4 +3,5 @@ This is going to be an application that uses the Yelp API, to help find a random
 
 FEATURES:
 -Filters - star rating, price, cuisine type, distance
+
 -Roulette style graphic randomization
