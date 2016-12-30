@@ -1,0 +1,43 @@
+$headerHeight: 50px;
+@font-face {
+  font-family: Molot;
+  src: url(../vendor/Molot.otf);
+}
+@font-face {
+  font-family: Ambrosia;
+  src: url(../vendor/Ambrosia.ttf);
+}
+
+body {
+  height: 100%;
+  background:  linear-gradient(white, #888);
+  font-family: 'Ambrosia', 'Molot';
+}
+html {
+  height: 100%;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#theHeader {
+  background: #bbbbbb;
+  min-height:$headerHeight;
+  #logo {
+    float:left;
+  }
+  #navbar {
+    float:right;
+    li{
+      display:inline;
+    }
+    #navList{
+      // list-style: none;
+
+    }
+  }
+}
+#app {
+  padding:20px;
+}
